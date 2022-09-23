@@ -19,9 +19,8 @@ Add it in your root build.gradle at the end of repositories:
 
 Step 2. Add the dependency
 
-
 ```gradle
   dependencies {
-    implementation 'com.github.webrtc-sdk:android:104.5112.01'
+    implementation 'com.github.danysmall:android:105.0.0'
   }
 ```

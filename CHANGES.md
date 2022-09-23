@@ -1,5 +1,35 @@
 # Changelog
---------------------------------------------
+
+
+
+---
+[105.0.0] - 2022.09.23
+
+* Upgrade RtpTransceiver.java
+
+
+Corresponds to https://github.com/webrtc-sdk/webrtc/commit/a828846eb98e404bf3b00c1abf3787f93171a39c
+---
+---
+
+[105.0.0] - 2022.09.23
+
+* Upgrade RtpTransceiver
+
+  * Added fifth argument to RtpTransceiverDirection enum
+
+  ```java
+  /** Java version of webrtc::RtpTransceiverDirection - the ordering must be kept in sync. */
+  public enum RtpTransceiverDirection {
+      SEND_RECV(0),
+      SEND_ONLY(1),
+      RECV_ONLY(2),
+      INACTIVE(3),
+      STOPPED(4);
+  /* -------------------------------------------------------------- */
+  ```
+
+---
 
 [104.5112.01] - 2022.07.12
 
@@ -7,7 +37,8 @@
 
 Corresponds to https://github.com/webrtc-sdk/webrtc/commit/a828846eb98e404bf3b00c1abf3787f93171a39c
 
---------------------------------------------
+---
+
 [97.4692.04] - 2022.05.18
 
 * Fix broken build.
@@ -30,7 +61,8 @@ Corresponds to https://github.com/webrtc-sdk/webrtc/commit/a828846eb98e404bf3b00
 * Upgrade to WebRTC-SDK M97.4692.01
 * Built from https://github.com/webrtc-sdk/webrtc/commit/8c7139f8e6fa19ddf2c91510c177a19746e1ded3
 
---------------------------------------------
+---
+
 [93.4577.01] - 2021.12.29
 
 * Upgrade to WebRTC-SDK M93.4577.01
@@ -45,7 +77,8 @@ Corresponds to https://github.com/webrtc-sdk/webrtc/commit/a828846eb98e404bf3b00
 * Pre-compiled M92 92.4515.02.
 * Built from https://github.com/webrtc-sdk/webrtc/commit/7ca0fa605f208ebbfb50c296249b0a3628aac2bc
 
---------------------------------------------
+---
+
 [92.4515.01] - 2021.09.08
 
 * Pre-compiled M92 92.4515.01.
